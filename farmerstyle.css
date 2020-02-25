@@ -1,0 +1,133 @@
+body{
+    color: #5E783F;
+    background-color: #ECEDEA;
+    margin: 20px
+}
+
+h1{
+    font-family: "din-2014";
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+h2{
+    font-family: "din-2014";
+}
+
+p{
+    font-family: adobe-caslon-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 20px 70px;
+}
+
+.topnav {
+  background-color: #ECEDEA;
+  overflow: hidden;
+    margin: 20px;
+}
+
+.topnav a {
+    float: left;
+    color: #5E783F;
+    font-family: "din-2014";
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ECEDEA;
+    color: #5E783F;
+    opacity: 70%;
+}
+
+.topnav a.active {
+    background-color: #ECEDEA;
+    color: #5E783F;
+}
+
+.topnav-right{
+    float: right;
+}
+
+.col-1{
+    width: 50%;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-3{
+    width: 65%;
+}
+
+.col-4{
+    width: 30%;
+    padding-right: 60px;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.button{
+    background-color: #ECEDEA;
+    border: 3px solid #5E783F;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "din-2014";
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #5E783F;
+}
+
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.title{
+    padding: 0px 70px;
+}
+
+.index{
+    background: url(Pictures/finalbg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.interview{
+    background: url(Pictures/interviewbg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #ECEDEA;
+}
