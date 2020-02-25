@@ -120,13 +120,13 @@ a{
 }
 
 .index{
-    background: url(Pictures/finalbg-01.jpg);
+    background: url(finalbg-01.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .interview{
-    background: url(Pictures/interviewbg-01.jpg);
+    background: url(interviewbg-01.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #ECEDEA;
